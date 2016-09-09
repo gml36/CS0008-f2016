@@ -5,4 +5,3 @@
 # instructor: Max Novelli (man8@pitt.edu)
 # description: Starting with Python, Chapter 2, Exercise 5
 # notes:
-
