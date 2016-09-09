@@ -5,3 +5,9 @@
 # instructor: Max Novelli (man8@pitt.edu)
 # description: Starting with Python, Chapter 2, Exercise 5
 # notes:
+
+temp = input('Please enter the temperature in Fahrenheit, please: ')
+temp = float(temp)
+
+C = 5 * (temp - 32)/9
+print 'The temperature in Celsius is ' +str(C)
