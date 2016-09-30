@@ -32,3 +32,17 @@ else:
 mpg = usc_distance/gallons
 # calculated mpg
 metric_consumption = (100*liters)/metric_distance
+# calculated 1/100KM
+
+rating = ''
+if metric_consumption > 20:
+    rating = 'Extremely Poor'
+elif metric_consumption > 15 and metric_consumption <= 20:
+    rating = 'Poor'
+elif metric_consumption > 10 and metric_consumption <= 15:
+    rating = 'Average'
+elif metric_consumption > 8 and metric_consumption <= 10:
+    rating = 'Good'
+else:
+    rating = 'Excellent'
+# calculated ratings for fuel consumption
