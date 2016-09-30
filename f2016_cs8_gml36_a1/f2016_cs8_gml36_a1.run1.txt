@@ -1,0 +1,29 @@
+Run 1:
+
+C:\Python27\python.exe C:/Users/Genevieve/Documents/CS0008/CS0008-f2016/f2016_cs8_gml36_a1/f2016_cs8_gml36_a1.py
+Do you want to use USC or Metric?USC
+What was the distance driven?700
+How much gasoline was used?157
+                             USC                 Metric
+Distance _________________:  700.000 Miles          1126.538 Km
+Gas_______________________:  157.000 Gallons       594.309 Liters
+Consumption_______________:  4.459 mpg           52.755 1/100Km
+
+Gas Consumption Rating    : Extremely Poor
+
+Process finished with exit code 0
+
+Run 2:
+
+C:\Python27\python.exe C:/Users/Genevieve/Documents/CS0008/CS0008-f2016/f2016_cs8_gml36_a1/f2016_cs8_gml36_a1.py
+Do you want to use USC or Metric?Metric
+What was the distance driven?487
+How much gasoline was used?38
+                             USC                 Metric
+Distance _________________:  302.608 Miles          487.000 Km
+Gas_______________________:  10.039 Gallons        38.000 Liters
+Consumption_______________:  30.145 mpg            7.803 1/100Km
+
+Gas Consumption Rating    : Excellent
+
+Process finished with exit code 0
