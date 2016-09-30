@@ -1,0 +1,4 @@
+I started by getting the inputs from the user before calculating all of the needed information and formatting the output.
+I struggled with how to do the calculations at first, and got the equations wrong once before it gave me the
+correct answers.  I had the most trouble with the format of the output.  My first several tries did not work and it was not
+until about my fourth try that I found a method that worked.
