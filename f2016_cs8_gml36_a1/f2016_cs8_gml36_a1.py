@@ -1,3 +1,11 @@
+# name: Genevieve Laymon
+# email: gml36@pitt.edu
+# date: 9-30-2016
+# class: CS0008-f2016
+# instructor: Max Novelli (man8@pitt.edu)
+# description: Assignment 1
+# notes: I had the most trouble with the formatting of the output and had to correct it several times before it worked.
+
 system = raw_input('Do you want to use USC or Metric?')
 # here I am asking if the client wants Metric or USC
 if system != 'USC' and system != 'Metric':
