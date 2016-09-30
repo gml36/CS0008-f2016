@@ -19,3 +19,16 @@ else:
     #TODO check conversion
     usc_distance = metric_distance*1.60934
 # calculated metric vs usc distance
+
+gallons = 0
+liters = 0
+if system == 'USC':
+    gallons = amount
+    liters = gallons*0.264172
+else:
+    liters = amount
+    gallons = liters*3.78541
+# calculated gallons and liters
+mpg = usc_distance/gallons
+# calculated mpg
+metric_consumption = (100*liters)/metric_distance
