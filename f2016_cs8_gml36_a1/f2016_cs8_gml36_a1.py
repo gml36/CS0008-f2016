@@ -45,4 +45,10 @@ else:
     rating = 'Excellent'
 # calculated ratings for fuel consumption
 
-
+print('                             USC                 Metric')
+print('Distance _________________:  %.3f Miles          %.3f Km' % (usc_distance, metric_distance))
+print('Gas_______________________:  %.3f Gallons        %.3f Liters' % (gallons, liters))
+print('Consumption_______________:  %.3f mpg            %.3f 1/100Km' % (mpg, metric_consumption))
+print('')
+print('Gas Consumption Rating    : %s' % (rating))
+# prints output
