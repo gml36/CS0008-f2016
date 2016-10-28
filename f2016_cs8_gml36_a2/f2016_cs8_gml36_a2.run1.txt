@@ -1,0 +1,12 @@
+Run 1:
+
+C:\Python27\python.exe C:/Users/Genevieve/Documents/CS0008/CS0008-f2016/f2016_cs8_gml36_a2/f2016_cs8_gml36_a2.py
+Enter the name of a file or enter quit/q to exit: f2016_cs8_a2.data.1.csv
+Partial Total # of Lines:        50
+Partial Distance Run:2.3e+03
+Enter the name of a file or enter quit/q to exit: q
+Totals
+Total # of Lines    :        50
+Total Distance Run  :2.3e+03
+
+Process finished with exit code 0
