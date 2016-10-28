@@ -1,0 +1,3 @@
+I started by writing the different functions before writing the main loop of the program.  During my initial test runs,
+I had trouble opening the example file, but I eventually solved this problem.  I had the most trouble with the formatting
+but was eventually able to solve this problem as well.
