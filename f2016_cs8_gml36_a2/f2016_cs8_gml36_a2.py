@@ -4,6 +4,7 @@
 # class: CS0008-f2016
 # instructor: Max Novelli (man8@pitt.edu)
 # description: Assignment 2
+# notes: I struggled the most with the formatting
 
 # this function takes the handle to a file object
 # and returns the number of lines and the total distance
@@ -29,14 +30,38 @@ def printKV(key,value,klen = 0):
     max_len = max(len(key), klen)
     if isinstance(value, str):
         # formats and prints string values
-        format_str = '{:' + str(max_len) + '}:{:20)'
+        format_str = '{:' + str(max_len) + '}:{:20}'
         print(format_str.format(key, value))
     elif isinstance(value, float):
         #formats and prints float values
-        format_str = '{:' + str(max_len) + '}:{:6.3)'
+        format_str = '{:' + str(max_len) + '}:{:6.3}'
         print(format_str.format(key, value))
     else:
         # formats and prints all other values, including ints
-        format_str = '{:' + str(max_len) + '}:{:10)'
+        format_str = '{:' + str(max_len) + '}:{:10}'
         print(format_str.format(key, value))
+
+# here I am asking the user for the name of the file
+filename = raw_input('Enter the name of a file or enter quit/q to exit: ')
+# here I am defining variables
+global_distance = 0
+global_lines = 0
+# loops until user exits
+while filename != 'quit' and filename != 'q' and filename != '':
+    # opens the file in read mode
+    open_file = open(filename, 'r')
+    # calls the processFile function
+    data = processFile(open_file)
+    # keeps a running total between files
+    global_lines += data[0]
+    global_distance += data[1]
+    # calls printKV
+    printKV('Partial Total # of Lines', data[0], 20)
+    printKV('Partial Distance Run', data[1], 20)
+    # prompts the user to enter another file or quit
+    filename = raw_input('Enter the name of a file or enter quit/q to exit: ')
+# once the user is done, prints the totals
+print 'Totals'
+printKV('Total # of Lines', global_lines, 20)
+printKV('Total Distance Run', global_distance, 20)
 
