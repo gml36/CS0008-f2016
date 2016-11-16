@@ -13,7 +13,7 @@ def parse_file_list(file_list):
 # open all of the data files
     open_files = []
     for data in file_list:
-        open_files.append(open(data))
+        open_files.append(open(data.rstrip()))
     return open_files
 
 def read_data_files(data_files):
@@ -22,6 +22,7 @@ def read_data_files(data_files):
     # I'm also storing the number of lines read here
     # This could be a problem if someone was named "num_lines_read", but that probably won't happen
     for data_file in data_files:
+        next(data_file)
         for line in data_file:
             running_distances['num_lines_read'] += 1
             runner_info = line.split(',')
@@ -52,7 +53,7 @@ for item in data_files:
 current_max = -sys.maxsize - 1
 # getting the maximum
 max_name = ''
-for name, distance in runner_info:
+for name, distance in runner_info.items():
     if distance[0] > current_max:
         current_max = distance[0]
         max_name = name
@@ -60,7 +61,7 @@ for name, distance in runner_info:
 current_min = sys.maxsize
 # getting the minimum
 min_name = ''
-for name, distance in runner_info:
+for name, distance in runner_info.items():
     if distance[0] < current_min:
         current_min = distance[0]
         min_name = name
@@ -68,13 +69,13 @@ for name, distance in runner_info:
 multiple_records = 0
 # figuring out who has multiple records
 for runner in runner_info:
-    if runner[1] > 1:
+    if runner_info[runner][1] > 1:
         multiple_records += 1
 
 total_dist_run = 0
 # calculating the total distance run
 for runner in runner_info:
-    total_dist_run += runner[0]
+    total_dist_run += runner_info[runner][0]
 
 print('Number of input files read: ' + str(num_files_read))
 print('Total number of lines read: ' + str(num_lines_read))
