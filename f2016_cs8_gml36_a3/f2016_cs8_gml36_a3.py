@@ -29,6 +29,7 @@ master_data_file.close()
 runner_info = read_data_files(data_files)
 num_files_read = len(data_files)
 num_lines_read = runner_info['num_lines_read']
+runner_info.pop('num_lines_read')
 for item in data_files:
     item.close()
 
@@ -45,3 +46,22 @@ for name, distance in runner_info:
     if distance[0] < current_min:
         current_min = distance[0]
         min_name = name
+
+multiple_records = 0
+for runner in runner_info:
+    if runner[1] > 1:
+        multiple_records += 1
+
+total_dist_run = 0
+for runner in runner_info:
+    total_dist_run += runner[0]
+
+print('Number of input files read: ' + str(num_files_read))
+print('Total number of lines read: ' + str(num_lines_read))
+print('Total distance run: ' + str(total_dist_run))
+print('Max distance run: ' + str(current_max))
+print('By participant: ' + str(max_name))
+print('Min distance run: ' + str(current_min))
+print('By participant: ' + str(min_name))
+print('Total number of participants: ' + str(len(runner_info)))
+print('Number of participants with multiple records: ' + str(multiple_records))
