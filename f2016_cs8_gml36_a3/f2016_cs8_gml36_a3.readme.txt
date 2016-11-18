@@ -1,0 +1,4 @@
+I started by reading the master file before looping through each file to get the names and distances run,
+updating how many times they appeared as I went.  I also kept track of the number of lines read.
+Next, I found the maximum and minimum, which I had to import sys to do, and calculated the total distance run.
+Finally, I printed the output and created the output file.

@@ -4,6 +4,7 @@
 # class: CS0008-f2016
 # instructor: Max Novelli (man8@pitt.edu)
 # description: Assignment 3
+# notes: I spent the most time on finding a way to get the data from the files loaded in a way that made sense
 
 import sys
 # needed to get max and min values
