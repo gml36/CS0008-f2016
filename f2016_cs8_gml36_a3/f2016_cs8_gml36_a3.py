@@ -13,7 +13,7 @@ def parse_file_list(file_list):
 # open all of the data files
     open_files = []
     for data in file_list:
-        open_files.append(open(data.rstrip()))
+        open_files.append(data.rstrip())
     return open_files
 
 def read_data_files(data_files):
@@ -21,7 +21,8 @@ def read_data_files(data_files):
     running_distances = {'num_lines_read': 0}
     # I'm also storing the number of lines read here
     # This could be a problem if someone was named "num_lines_read", but that probably won't happen
-    for data_file in data_files:
+    for data_file_unopened in data_files:
+        data_file = open(data_file_unopened, 'r')
         next(data_file)
         for line in data_file:
             running_distances['num_lines_read'] += 1
@@ -32,9 +33,10 @@ def read_data_files(data_files):
                 (running_distances[runner_info[0]])[1] += 1
             else:
                 running_distances[runner_info[0]] = [float(runner_info[1]), 1]
+        data_file.close()
     return running_distances
 
-master_data_name = raw_input('Enter the name of the master data file: ')
+master_data_name = 'f2016_cs8_a3.data.txt'
 master_data_file = open(master_data_name, 'r')
 data_file_list = []
 for line in master_data_file:
@@ -47,8 +49,6 @@ runner_info = read_data_files(data_files)
 num_files_read = len(data_files)
 num_lines_read = runner_info['num_lines_read']
 runner_info.pop('num_lines_read')
-for item in data_files:
-    item.close()
 
 current_max = -sys.maxsize - 1
 # getting the maximum
@@ -87,3 +87,9 @@ print('By participant: ' + str(min_name))
 print('Total number of participants: ' + str(len(runner_info)))
 print('Number of participants with multiple records: ' + str(multiple_records))
 # printing the output
+
+with open('output.txt', 'w') as output_file:
+# creating the output file
+    for name, info in runner_info.items():
+        output_file.write(name + ', ' + str(info[1]) + ', ' + str(info[0]) + '\n')
+    output_file.close()
