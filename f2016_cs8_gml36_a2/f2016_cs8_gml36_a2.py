@@ -5,6 +5,9 @@
 # instructor: Max Novelli (man8@pitt.edu)
 # description: Assignment 2
 # notes: I struggled the most with the formatting
+#
+# MN: Genevieve this script runs only on python2. Are you aware that you are still using python 2.x? 
+#
 
 # this function takes the handle to a file object
 # and returns the number of lines and the total distance
