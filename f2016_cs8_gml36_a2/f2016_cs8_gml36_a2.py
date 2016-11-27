@@ -42,7 +42,7 @@ def printKV(key,value,klen = 0):
         print(format_str.format(key, value))
 
 # here I am asking the user for the name of the file
-filename = raw_input('Enter the name of a file or enter quit/q to exit: ')
+filename = input('Enter the name of a file or enter quit/q to exit: ')
 # here I am defining variables
 global_distance = 0
 global_lines = 0
@@ -59,9 +59,9 @@ while filename != 'quit' and filename != 'q' and filename != '':
     printKV('Partial Total # of Lines', data[0], 20)
     printKV('Partial Distance Run', data[1], 20)
     # prompts the user to enter another file or quit
-    filename = raw_input('Enter the name of a file or enter quit/q to exit: ')
+    filename = input('Enter the name of a file or enter quit/q to exit: ')
 # once the user is done, prints the totals
-print 'Totals'
+print('Totals')
 printKV('Total # of Lines', global_lines, 20)
 printKV('Total Distance Run', global_distance, 20)
 
