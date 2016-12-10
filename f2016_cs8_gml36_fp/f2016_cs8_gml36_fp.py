@@ -8,6 +8,33 @@
 import sys
 # needed to get max and min values
 
+class Participants:
+    def __init__(self, n, d=0):
+        self.name = n
+        self.distance = d
+        if d == 0:
+            self.runs = 0
+        else:
+            self.runs = 1
+
+    def addDistance(self, d):
+        self.distance += d
+        self.runs += 1
+
+    def addDistances(self, ld):
+        for distance in ld:
+            self.distance += distance
+            self.runs += 1
+
+    def getDistance(self):
+        return self.distance
+
+    def getName(self):
+        return self.name
+
+    def __str__(self):
+        return 'Name: {:<20s}. Distance run: {:09.4f}. Runs: {:04.0f}'
+
 def parse_file_list(file_list):
 # open all of the data files
     open_files = []
@@ -35,7 +62,7 @@ def read_data_files(data_files):
         data_file.close()
     return running_distances
 
-master_data_name = input("Please provide master file: ")
+master_data_name = input("Please provide the master file: ")
 master_data_file = open(master_data_name, 'r')
 data_file_list = []
 for line in master_data_file:
