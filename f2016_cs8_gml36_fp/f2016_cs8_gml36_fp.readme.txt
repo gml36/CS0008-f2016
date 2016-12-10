@@ -1,0 +1,3 @@
+I started this project by adding my code from project 3.  I then changed how to get the master data file
+to a user input instead of a hardcoded file.  After that, I wrote the class and changed the old method of data
+storage to keep data in the class.
