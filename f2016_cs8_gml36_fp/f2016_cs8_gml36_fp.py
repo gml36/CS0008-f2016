@@ -33,7 +33,7 @@ class Participants:
         return self.name
 
     def __str__(self):
-        return 'Name: {:<20s}. Distance run: {:09.4f}. Runs: {:04.0f}'
+        return 'Name: {:>20s}. Distance run: {:09.4f}. Runs: {:04.0f} \n'.format(self.name, self.distance, self.runs)
 
 def parse_file_list(file_list):
 # open all of the data files
@@ -55,10 +55,9 @@ def read_data_files(data_files):
             runner_info = line.split(',')
             # info is stored like "name: [distance run, number of records]"
             if runner_info[0] in running_distances:
-                (running_distances[runner_info[0]])[0] += float(runner_info[1])
-                (running_distances[runner_info[0]])[1] += 1
+                (running_distances[runner_info[0]]).addDistance(float(runner_info[1]))
             else:
-                running_distances[runner_info[0]] = [float(runner_info[1]), 1]
+                running_distances[runner_info[0]] = Participants(runner_info[0], float(runner_info[1]))
         data_file.close()
     return running_distances
 
@@ -79,29 +78,29 @@ runner_info.pop('num_lines_read')
 current_max = -sys.maxsize - 1
 # getting the maximum
 max_name = ''
-for name, distance in runner_info.items():
-    if distance[0] > current_max:
-        current_max = distance[0]
-        max_name = name
+for runner in list(runner_info.values()):
+    if runner.getDistance() > current_max:
+        current_max = runner.getDistance()
+        max_name = runner.getName()
 
 current_min = sys.maxsize
 # getting the minimum
 min_name = ''
-for name, distance in runner_info.items():
-    if distance[0] < current_min:
-        current_min = distance[0]
-        min_name = name
+for runner in list(runner_info.values()):
+    if runner.getDistance() < current_min:
+        current_min = runner.getDistance()
+        min_name = runner.getName()
 
 multiple_records = 0
 # figuring out who has multiple records
-for runner in runner_info:
-    if runner_info[runner][1] > 1:
+for runner in list(runner_info.values()):
+    if runner.runs > 1:
         multiple_records += 1
 
 total_dist_run = 0
 # calculating the total distance run
-for runner in runner_info:
-    total_dist_run += runner_info[runner][0]
+for runner in list(runner_info.values()):
+    total_dist_run += runner.getDistance()
 
 print('Number of input files read: ' + str(num_files_read))
 print('Total number of lines read: ' + str(num_lines_read))
@@ -116,6 +115,6 @@ print('Number of participants with multiple records: ' + str(multiple_records))
 
 with open('output.txt', 'w') as output_file:
 # creating the output file
-    for name, info in runner_info.items():
-        output_file.write(name + ', ' + str(info[1]) + ', ' + str(info[0]) + '\n')
+    for runner in list(runner_info.values()):
+        output_file.write(str(runner))
     output_file.close()
