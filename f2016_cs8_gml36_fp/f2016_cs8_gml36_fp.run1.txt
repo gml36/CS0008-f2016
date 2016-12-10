@@ -1,0 +1,165 @@
+C:\Users\Genevieve\AppData\Local\Programs\Python\Python35-32\python.exe C:/Users/Genevieve/Documents/CS0008/CS0008-f2016/f2016_cs8_gml36_fp/f2016_cs8_gml36_fp.py
+Please provide the master file: f2016_cs8_fp.data.txt
+Number of input files read: 3
+Total number of lines read: 450
+Total distance run: 23222.955949718515
+Max distance run: 205.82148177564366
+By participant: Glynis
+Min distance run: 0.057889446920667
+By participant: Alex
+Total number of participants: 388
+Number of participants with multiple records: 60
+
+Process finished with exit code 0
+
+The output file:
+Name:              Myrna  . Distance run: 0093.2803. Runs: 0001
+Name:           Vivienne  . Distance run: 0034.6370. Runs: 0001
+Name:              Diann  . Distance run: 0070.5973. Runs: 0001
+Name:            Randell  . Distance run: 0136.0404. Runs: 0002
+Name:            Frances  . Distance run: 0060.3730. Runs: 0001
+Name:            Ernesto  . Distance run: 0098.8834. Runs: 0002
+Name:           Christen  . Distance run: 0085.5912. Runs: 0001
+Name:             Alleen  . Distance run: 0068.2332. Runs: 0001
+Name:            Lincoln  . Distance run: 0031.6362. Runs: 0001
+Name:          Madeleine  . Distance run: 0015.5560. Runs: 0001
+Name:             Angila  . Distance run: 0029.4555. Runs: 0001
+Name:            Enrique  . Distance run: 0097.4096. Runs: 0001
+Name:              Floyd  . Distance run: 0099.1971. Runs: 0001
+Name:            Charise  . Distance run: 0046.8392. Runs: 0001
+Name:              Alysa  . Distance run: 0098.3554. Runs: 0001
+Name:             Dorthy  . Distance run: 0055.2918. Runs: 0001
+Name:             Wilton  . Distance run: 0061.6640. Runs: 0001
+Name:         Concepcion  . Distance run: 0022.8141. Runs: 0001
+Name:                Asa  . Distance run: 0063.7827. Runs: 0001
+Name:            Annamae  . Distance run: 0056.4574. Runs: 0001
+Name:            Lavonna  . Distance run: 0085.5098. Runs: 0001
+Name:             Nicole  . Distance run: 0025.4309. Runs: 0001
+Name:              Yaeko  . Distance run: 0031.0048. Runs: 0001
+Name:            Michele  . Distance run: 0073.4750. Runs: 0001
+Name:              Faith  . Distance run: 0039.8211. Runs: 0001
+Name:              Felix  . Distance run: 0036.8476. Runs: 0001
+Name:              Pearl  . Distance run: 0009.3349. Runs: 0001
+Name:              Audra  . Distance run: 0047.5539. Runs: 0001
+Name:             Ellena  . Distance run: 0011.8359. Runs: 0001
+Name:                Shu  . Distance run: 0071.8212. Runs: 0001
+Name:               Kyle  . Distance run: 0110.5572. Runs: 0002
+Name:             Cecila  . Distance run: 0037.3321. Runs: 0001
+Name:             Marvis  . Distance run: 0073.5655. Runs: 0001
+Name:               Evon  . Distance run: 0089.7280. Runs: 0001
+Name:             Ariana  . Distance run: 0089.1183. Runs: 0002
+Name:             Justin  . Distance run: 0044.6399. Runs: 0001
+Name:               Olen  . Distance run: 0014.0838. Runs: 0001
+Name:            Samatha  . Distance run: 0059.6279. Runs: 0001
+Name:             Coleen  . Distance run: 0066.8280. Runs: 0001
+Name:            Pamella  . Distance run: 0034.9861. Runs: 0001
+Name:         Antonietta  . Distance run: 0137.3879. Runs: 0002
+Name:               Kyra  . Distance run: 0080.2472. Runs: 0001
+Name:              Leona  . Distance run: 0091.8312. Runs: 0002
+Name:            Minerva  . Distance run: 0028.2243. Runs: 0001
+Name:             Carisa  . Distance run: 0096.8620. Runs: 0002
+Name:            Clarita  . Distance run: 0065.1114. Runs: 0002
+Name:            Marlena  . Distance run: 0049.0372. Runs: 0001
+Name:              Leida  . Distance run: 0077.8370. Runs: 0001
+Name:            Celeste  . Distance run: 0006.6208. Runs: 0001
+Name:             Andera  . Distance run: 0044.4978. Runs: 0001
+Name:             Morris  . Distance run: 0049.8045. Runs: 0001
+Name:            Tameika  . Distance run: 0026.3494. Runs: 0001
+Name:               Tova  . Distance run: 0058.8335. Runs: 0001
+Name:             Felica  . Distance run: 0076.4702. Runs: 0001
+Name:              Gregg  . Distance run: 0063.3740. Runs: 0001
+Name:             Jazmin  . Distance run: 0052.2086. Runs: 0001
+Name:               Scot  . Distance run: 0045.7096. Runs: 0002
+Name:             Portia  . Distance run: 0080.9113. Runs: 0001
+Name:              Dotty  . Distance run: 0057.3714. Runs: 0001
+Name:                Ara  . Distance run: 0003.1792. Runs: 0001
+Name:             Grayce  . Distance run: 0067.3391. Runs: 0002
+Name:             Brenda  . Distance run: 0053.0062. Runs: 0001
+Name:            Lavinia  . Distance run: 0045.2653. Runs: 0001
+Name:          Georgette  . Distance run: 0005.3485. Runs: 0001
+Name:            Ignacia  . Distance run: 0088.3752. Runs: 0002
+Name:             Jolene  . Distance run: 0096.2419. Runs: 0001
+Name:             Lenora  . Distance run: 0019.1094. Runs: 0001
+Name:              Billy  . Distance run: 0002.0420. Runs: 0001
+Name:           Maryland  . Distance run: 0086.0007. Runs: 0001
+Name:             Eloisa  . Distance run: 0062.1568. Runs: 0001
+Name:            Brigida  . Distance run: 0001.6124. Runs: 0001
+Name:                Son  . Distance run: 0087.0879. Runs: 0001
+Name:               Jack  . Distance run: 0078.3408. Runs: 0001
+Name:            Sherman  . Distance run: 0071.8683. Runs: 0002
+Name:             Margit  . Distance run: 0089.2260. Runs: 0001
+Name:             Shasta  . Distance run: 0048.3473. Runs: 0002
+Name:          Johnathan  . Distance run: 0062.3240. Runs: 0001
+Name:              Pasty  . Distance run: 0010.3550. Runs: 0001
+Name:              Perry  . Distance run: 0044.4575. Runs: 0001
+Name:             Willis  . Distance run: 0031.3987. Runs: 0002
+Name:            Hillary  . Distance run: 0012.6436. Runs: 0001
+Name:           Demarcus  . Distance run: 0022.9816. Runs: 0001
+Name:           Cathleen  . Distance run: 0028.1584. Runs: 0001
+Name:             Tonita  . Distance run: 0006.1236. Runs: 0001
+Name:           Theressa  . Distance run: 0022.2174. Runs: 0001
+Name:           Merrilee  . Distance run: 0089.6413. Runs: 0001
+Name:            Geralyn  . Distance run: 0029.9369. Runs: 0001
+Name:              Fidel  . Distance run: 0084.8767. Runs: 0002
+Name:           Charline  . Distance run: 0012.5860. Runs: 0001
+Name:             Nieves  . Distance run: 0096.1587. Runs: 0002
+Name:            Cherish  . Distance run: 0037.6467. Runs: 0001
+Name:           Shalanda  . Distance run: 0084.3958. Runs: 0001
+Name:           Domenica  . Distance run: 0053.4061. Runs: 0001
+Name:               Hien  . Distance run: 0055.6496. Runs: 0002
+Name:             Delsie  . Distance run: 0009.2856. Runs: 0001
+Name:               Adah  . Distance run: 0031.5046. Runs: 0001
+Name:              Lexie  . Distance run: 0111.1653. Runs: 0002
+Name:                Bok  . Distance run: 0094.0426. Runs: 0001
+Name:              Amado  . Distance run: 0013.0205. Runs: 0001
+Name:             Elayne  . Distance run: 0032.3722. Runs: 0001
+Name:             Brenna  . Distance run: 0076.9790. Runs: 0001
+Name:             Nichol  . Distance run: 0067.9727. Runs: 0001
+Name:            Gustavo  . Distance run: 0099.0005. Runs: 0001
+Name:            Arletha  . Distance run: 0012.8860. Runs: 0001
+Name:            Mozella  . Distance run: 0144.1015. Runs: 0002
+Name:             Tressa  . Distance run: 0030.5452. Runs: 0001
+Name:              Ronda  . Distance run: 0174.8105. Runs: 0003
+Name:             Phoebe  . Distance run: 0091.6805. Runs: 0001
+Name:               Noel  . Distance run: 0065.1250. Runs: 0001
+Name:             Edwina  . Distance run: 0006.0328. Runs: 0001
+Name:            Celinda  . Distance run: 0043.1793. Runs: 0002
+Name:            Rosanne  . Distance run: 0015.4910. Runs: 0001
+Name:              Bulah  . Distance run: 0052.0409. Runs: 0001
+Name:             Loreen  . Distance run: 0092.4636. Runs: 0001
+Name:            Russell  . Distance run: 0025.1186. Runs: 0001
+Name:            Kendall  . Distance run: 0086.1026. Runs: 0001
+Name:              Nisha  . Distance run: 0071.4274. Runs: 0001
+Name:            Barbera  . Distance run: 0067.6514. Runs: 0001
+Name:             Ruthie  . Distance run: 0050.4904. Runs: 0001
+Name:             Malisa  . Distance run: 0049.2943. Runs: 0001
+Name:              Debra  . Distance run: 0020.0996. Runs: 0001
+Name:          Felicidad  . Distance run: 0097.8260. Runs: 0001
+Name:        Alejandrina  . Distance run: 0060.3773. Runs: 0001
+Name:              Elroy  . Distance run: 0004.0506. Runs: 0001
+Name:            Sherill  . Distance run: 0095.3270. Runs: 0002
+Name:               Hyun  . Distance run: 0099.4090. Runs: 0001
+Name:              Clair  . Distance run: 0118.1086. Runs: 0002
+Name:               Linn  . Distance run: 0142.7058. Runs: 0002
+Name:            Leandro  . Distance run: 0033.3521. Runs: 0001
+Name:             Vickie  . Distance run: 0026.4875. Runs: 0001
+Name:              Annie  . Distance run: 0051.1933. Runs: 0001
+Name:               Lyle  . Distance run: 0002.7385. Runs: 0001
+Name:              Lilia  . Distance run: 0031.4738. Runs: 0001
+Name:            Jamison  . Distance run: 0099.4973. Runs: 0002
+Name:                Ima  . Distance run: 0055.8582. Runs: 0001
+Name:             Alonso  . Distance run: 0033.8184. Runs: 0001
+Name:              Arden  . Distance run: 0098.3813. Runs: 0002
+Name:               Lyda  . Distance run: 0122.1210. Runs: 0002
+Name:               Elma  . Distance run: 0015.2523. Runs: 0001
+Name:              Julie  . Distance run: 0108.4887. Runs: 0002
+Name:            Enedina  . Distance run: 0080.2619. Runs: 0001
+Name:             Delmar  . Distance run: 0068.7182. Runs: 0001
+Name:            Phyliss  . Distance run: 0046.0901. Runs: 0001
+Name:               Joie  . Distance run: 0072.6509. Runs: 0001
+Name:             Katlyn  . Distance run: 0066.8173. Runs: 0001
+Name:              Leora  . Distance run: 0106.7204. Runs: 0002
+Name:               Alex  . Distance run: 0000.0579. Runs: 0001
+Name:           Aracelis  . Distance run: 0063.1435. Runs: 0001
+Name:               Seth  . Distance run: 0023.1788. Runs: 0001
+Name:           Vincenza  . Distance run: 0004.4954. Runs: 0001
