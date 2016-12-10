@@ -4,11 +4,13 @@
 # class: CS0008-f2016
 # instructor: Max Novelli (man8@pitt.edu)
 # description: Final Project
+# notes: I had some difficulty getting the code from project 3 to work with the class
 
 import sys
 # needed to get max and min values
 
 class Participants:
+# adding the class
     def __init__(self, n, d=0):
         self.name = n
         self.distance = d
