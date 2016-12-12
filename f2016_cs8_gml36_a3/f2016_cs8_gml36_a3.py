@@ -5,6 +5,9 @@
 # instructor: Max Novelli (man8@pitt.edu)
 # description: Assignment 3
 # notes: I spent the most time on finding a way to get the data from the files loaded in a way that made sense
+# 
+# MN: make sure that the comments are above the lines that yo uare commenting
+#
 
 import sys
 # needed to get max and min values
@@ -37,15 +40,18 @@ def read_data_files(data_files):
         data_file.close()
     return running_distances
 
+# MN: why not asking the user for master list file name?
 master_data_name = 'f2016_cs8_a3.data.txt'
 master_data_file = open(master_data_name, 'r')
 data_file_list = []
 for line in master_data_file:
     data_file_list.append(line)
 # get the master data file and read the names of the individual data files
+# MN: I'm not really sure I understand what is the purpose of this call and the associated function
 data_files = parse_file_list(data_file_list)
 master_data_file.close()
 # close the master data file
+
 runner_info = read_data_files(data_files)
 num_files_read = len(data_files)
 num_lines_read = runner_info['num_lines_read']
@@ -89,7 +95,9 @@ print('Total number of participants: ' + str(len(runner_info)))
 print('Number of participants with multiple records: ' + str(multiple_records))
 # printing the output
 
-with open('output.txt', 'w') as output_file:
+# MN: respect the file naming convention requested in specifications/assignment
+#with open('output.txt', 'w') as output_file:
+with open('f2016_cs8_gml36_a3.output.txt', 'w') as output_file:
 # creating the output file
     for name, info in runner_info.items():
         output_file.write(name + ', ' + str(info[1]) + ', ' + str(info[0]) + '\n')
