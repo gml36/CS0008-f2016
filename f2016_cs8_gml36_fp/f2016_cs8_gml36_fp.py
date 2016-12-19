@@ -5,6 +5,10 @@
 # instructor: Max Novelli (man8@pitt.edu)
 # description: Final Project
 # notes: I had some difficulty getting the code from project 3 to work with the class
+#
+# MN: you need to indent comments the same as the code that you are comments on
+#     I sugget to place th commetns before the lines that you are commenting on
+#     Nice Work!!!!
 
 import sys
 # needed to get max and min values
